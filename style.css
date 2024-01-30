@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+body {
+   background: url(https://images.hdqwalls.com/download/evening-landscape-minimal-4k-kl-2560x1440.jpg);
+  background-position: center top;
+  background-size: cover; 
+  position: relative;
+  height: 100vh;
+  
+}
+
+h1 {
+  
+  display: block;
+  text-align: center;
+  width: 400px;
+  margin: auto;
+  font-size: 2.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: white;
+}
+
+.container-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 550px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  
+  background-color: rgba(0, 0, 0, 0.164);
+  border: 1px solid #cbcbfa;
+  border-radius: 20px;
+}
+
+.container-form  div {
+  margin-bottom: 15px;
+}
+
+input {
+  border-radius: 50px;
+  font-size: 17px;
+  padding: 0px 15px;
+  
+}
+
+input::placeholder {
+  color: rgb(72, 72, 72);
+  font-size: 20px;
+}
+
+div > label {
+  font-size: 20px;
+}
+
+.username input:hover {
+  background-color: white;
+  color: black;
+  transition: .1s ease-in-out;
+}
+
+.email input:hover {
+  background-color: white;
+  color: black;
+  transition: .1s ease-in-out;
+}
+
+.email-two input:hover {
+  background-color: white;
+  color: black;
+  transition: .1s ease-in-out;
+}
+
+.password input:hover {
+  background-color: white;
+  color: black;
+  transition: .1s ease-in-out;
+}
+
+.password-two input:hover {
+  background-color: white;
+  color: black;
+  transition: .1s ease-in-out;
+}
+
+.username input{
+  background-color: rgba(255, 255, 255, 0.442);
+  margin-top: 25px;
+  width: 300px;
+  height: 50px;
+  border: 1px solid #b4b4b4;
+  
+}
+
+.email input {
+  background-color: rgba(255, 255, 255, 0.442);
+  width: 300px;
+  height: 50px;
+  border: 1px solid #b4b4b4;
+  cursor:pointer;
+}
+
+.email-two input {
+  background-color: rgba(255, 255, 255, 0.442);
+  width: 300px;
+  height: 50px;
+  border: 1px solid #b4b4b4;
+  cursor:pointer;
+}
+
+.password input {
+  background-color: rgba(255, 255, 255, 0.442);
+  width: 300px;
+  height: 50px;
+  border: 1px solid #ccc;
+  cursor:pointer;
+}
+
+.password-two input {
+  background-color: rgba(255, 255, 255, 0.442);
+  width: 300px;
+  height: 50px;
+  border: 1px solid #ccc;
+  cursor:pointer;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  cursor:pointer;
+}
+
+.register input:hover {
+  transition: all .2s ease-in-out;
+  background-color: #5b44a9;
+  transform: scale(1.05);
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+
+}
+
+.register input {
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(183, 158, 217);
+  color: rgb(255, 255, 255);
+  width: 110px;
+  height: 50px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 2.0rem;
+    width: 350px;
+  }
+  
+  .container-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 550px;
+    
+    background-color: rgba(0, 0, 0, 0.164);
+    border: 1px solid #cbcbfa;
+    border-radius: 20px;
+  }
+}
