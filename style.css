@@ -150,7 +150,8 @@ div > label {
 
 .register input:hover {
   transition: all .2s ease-in-out;
-  background-color: #3714ab;
+  border: 1px solid #ff6bdc;
+  background-color: #ff6bdc;
   transform: scale(1.05);
 }
 
@@ -164,9 +165,9 @@ div > label {
   font-weight: 500;
   font-size: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-color: rgb(102, 69, 196);
+  background-color: #3714ab;
   color: rgb(255, 255, 255);
-  width: 110px;
+  width: 120px;
   height: 50px;
   border: 1px solid #4617a3;
   cursor: pointer;
@@ -174,8 +175,15 @@ div > label {
 }
 
 .fyp a:hover {
-  color: #5b44a9;
+  color: #ff6bdc;
+  transition: .1s ease-in-out;
 }
+
+.fyp p:hover {
+  transform: translateY(-5px);
+  transition: .3s ease-in-out;
+}
+
 
 .fyp a {
   font-size: 20px;
@@ -183,9 +191,19 @@ div > label {
   color: white;
 }
 
-p.fyp {
+.fyp strong {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.fyp {
   text-align: center;
   margin-bottom:  50px;
+}
+
+.fyp span {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  border-bottom: 1px solid #ff6bdc
 }
 
 .material-symbols-outlined {
