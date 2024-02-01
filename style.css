@@ -103,7 +103,7 @@ div > label {
 .username input{
   background-color: rgba(255, 255, 255, 0.442);
   margin-top: 25px;
-  width: 300px;
+  width: 350px;
   height: 50px;
   border: 1px solid #b4b4b4;
   
@@ -111,7 +111,7 @@ div > label {
 
 .email input {
   background-color: rgba(255, 255, 255, 0.442);
-  width: 300px;
+  width: 350px;
   height: 50px;
   border: 1px solid #b4b4b4;
   cursor:pointer;
@@ -119,7 +119,7 @@ div > label {
 
 .email-two input {
   background-color: rgba(255, 255, 255, 0.442);
-  width: 300px;
+  width: 350px;
   height: 50px;
   border: 1px solid #b4b4b4;
   cursor:pointer;
@@ -127,7 +127,7 @@ div > label {
 
 .password input {
   background-color: rgba(255, 255, 255, 0.442);
-  width: 300px;
+  width: 350px;
   height: 50px;
   border: 1px solid #ccc;
   cursor:pointer;
@@ -135,7 +135,7 @@ div > label {
 
 .password-two input {
   background-color: rgba(255, 255, 255, 0.442);
-  width: 300px;
+  width: 350px;
   height: 50px;
   border: 1px solid #ccc;
   cursor:pointer;
