@@ -212,6 +212,10 @@ div.fyp {
 
 @media screen and (max-width: 500px) {
 
+  span.material-symbols-outlined {
+    display: none;
+  }
+
   h1 {
     font-size: 2.0rem;
     width: 350px;
