@@ -217,8 +217,9 @@ div.fyp {
   }
 
   h1 {
+    text-align: center;
     font-size: 2.0rem;
-    width: 350px;
+    width: 330px;
   }
   
   .container-form{
@@ -226,11 +227,33 @@ div.fyp {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 330px;
     height: 650px;
+  
     
     background-color: rgba(0, 0, 0, 0.164);
     border: 1px solid #cbcbfa;
     border-radius: 20px;
   }
+
+  .username input{
+    width: 250px;
+  }
+  
+  .email input {
+    width: 250px;
+  }
+  
+  .email-two input {
+    width: 250px;
+  }
+  
+  .password input {
+    width: 250px;
+  }
+  
+  .password-two input {
+    width: 250px;
+  }
+  
 }
